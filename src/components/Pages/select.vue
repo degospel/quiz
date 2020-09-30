@@ -15,9 +15,7 @@
                     <h2>Web.Div</h2>
             </div>
         <div class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquam, quidem soluta? At distinctio porro obcaecati 
-                sapiente quae culpa.
+            <p>Debugging is twice as hard as writing the code in the first place.Therfore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Rajanand
             </p>
             <a><router-link to="/quis" class="bn">Start Now</router-link></a>
         </div>
@@ -27,9 +25,7 @@
                 <h2>Sport</h2>
             </div>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Aliquam, quidem soluta? At distinctio porro obcaecati 
-                    sapiente quae culpa.
+                <p> “Cancer can take away all my physical abilities, it cannot touch my soul. And those three things are going to carry on forever.”
                 </p>
                 <a><router-link to="/sport" class="bn">Start Now</router-link></a>
             </div>
@@ -39,9 +35,7 @@
                 <h2>Entertainment</h2>
             </div>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Aliquam, quidem soluta? At distinctio porro obcaecati 
-                    sapiente quae culpa.
+                <p>Movies can and do have tremendous influence in shaping young lives in the realm of entertainment towards the ideals and objectives of normal adulthood.
                 </p>
                 <a><router-link to="/entertainment" class="bn">Start Now</router-link></a>
             </div>
@@ -51,9 +45,7 @@
                 <h2>History</h2>
             </div>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Aliquam, quidem soluta? At distinctio porro obcaecati 
-                    sapiente quae culpa.
+                <p>History is a relentless master. It has no present, only the past rushing into the future. To try to hold fast is to be swept aside.
                 </p>
                 <a><router-link to="/history" class="bn">Start Now</router-link></a>
             </div>
