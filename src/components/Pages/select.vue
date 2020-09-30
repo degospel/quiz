@@ -55,7 +55,7 @@
                     Aliquam, quidem soluta? At distinctio porro obcaecati 
                     sapiente quae culpa.
                 </p>
-                <a><router-link to="/entertainment" class="bn">Start Now</router-link></a>
+                <a><router-link to="/history" class="bn">Start Now</router-link></a>
             </div>
         </div>
     </div>

@@ -344,4 +344,17 @@ export default {
            width: 100px;
        } 
     }
+        @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .container-quiz{
+           margin-top: 5rem;
+           width: 100%;
+           height: 100%;
+       }
+       .box-button button{
+           width: 100px;
+       } 
+    }
 </style>

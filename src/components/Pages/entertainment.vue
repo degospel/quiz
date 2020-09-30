@@ -331,7 +331,7 @@ export default {
         background-color: rgb(106, 128, 202);
         transition: 0.8s;
     }
-    /* @media screen and (max-width: 900px;) {
+    @media screen and (max-width: 900px;) {
        .container-quiz{
            width: 60%;
        } 
@@ -343,5 +343,18 @@ export default {
        .box-button button{
            width: 100px;
        } 
-    } */
+    }
+        @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .container-quiz{
+           margin-top: 5rem;
+           width: 100%;
+           height: 100%;
+       }
+       .box-button button{
+           width: 100px;
+       } 
+    }
 </style>
