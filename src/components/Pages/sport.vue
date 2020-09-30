@@ -29,6 +29,7 @@
                 <h2>{{score}}/{{questions.length}}</h2>
                 <div class="btn-restart">
                     <button @click="restartQuiz">Restart <i class="fas fa-sync-alt"></i></button>
+                    <button><router-link to="/select" class="go">Go Back</router-link></button>
                 </div>
             </div>
             <div class="quiz-footer">
@@ -308,7 +309,20 @@ export default {
         cursor: pointer;
         border-radius: 15px;
         margin: auto;
-        background-color: rgb(106, 128, 202);
+        background-color: #138D75;
+    }
+    .btn-restart button .go{
+        width: 150px;
+        height: 35px;
+        outline: none;
+        border: 0;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 15px;
+        margin: auto;
+        background-color: #138D75;
+        text-decoration: none;
     }
     .step-progress{
         display: flex;
