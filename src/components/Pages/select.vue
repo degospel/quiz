@@ -4,18 +4,16 @@
         <header>
             <router-link to="/" class="logo"><img src="~@/assets/academia.png" style="width:10rem;"></router-link>
 
-            <ul>
-                <li><p><router-link to="/" class="tex">Home</router-link></p></li>
-            </ul>
+            
         </header>
 
         <div class="container fas">
             <div class="card">
                 <div class="circle">
-                    <h2>Web.Div</h2>
+                    <h2>Technology</h2>
             </div>
         <div class="content">
-            <p>Debugging is twice as hard as writing the code in the first place.Therfore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Rajanand
+            <p>Debugging is twice as hard as writing the code. If you write the code as cleverly as you're not smart enough to debug it.
             </p>
             <a><router-link to="/quis" class="bn">Start Now</router-link></a>
         </div>
@@ -25,7 +23,7 @@
                 <h2>Sport</h2>
             </div>
             <div class="content">
-                <p> “Cancer can take away all my physical abilities, it cannot touch my soul. And those three things are going to carry on forever.”
+                <p> “Cancer can take away all my physical abilities, it cannot touch my soul. And those three things are going to carry on.”
                 </p>
                 <a><router-link to="/sport" class="bn">Start Now</router-link></a>
             </div>
@@ -35,7 +33,7 @@
                 <h2>Entertainment</h2>
             </div>
             <div class="content">
-                <p>Movies can and do have tremendous influence in shaping young lives in the realm of entertainment towards the ideals and objectives of normal adulthood.
+                <p>Movies can and do have tremendous influence in shaping young lives in the realm of entertainment.
                 </p>
                 <a><router-link to="/entertainment" class="bn">Start Now</router-link></a>
             </div>
@@ -45,7 +43,7 @@
                 <h2>History</h2>
             </div>
             <div class="content">
-                <p>History is a relentless master. It has no present, only the past rushing into the future. To try to hold fast is to be swept aside.
+                <p>History is a relentless master. It has no present, only the past rushing into the future. To try to hold fast is to be aside.
                 </p>
                 <a><router-link to="/history" class="bn">Start Now</router-link></a>
             </div>
@@ -86,6 +84,8 @@ export default {
         transition: 0.6s;
     }
     .gad{
+        margin: 0 !important;
+        padding: 0 !important;
         display: flex;
         min-height: 100vh;
         background: linear-gradient(45deg, #424949, #566573);
@@ -97,8 +97,8 @@ export default {
     } */
     .container{
         position: relative;
-        width: 1150px;
-        padding: 20px;
+        /* width: 1150px; */
+        padding-top: 20px;
         display: flex;
         justify-content: center !important;
         align-content: center !important;
@@ -146,6 +146,9 @@ export default {
     }
     .container .card .content p{
         color: #666;
+        font-family: 1em sans-serif;
+        font-size: 15px;
+
     }
     .container .card .content .bn{
         position: relative;
@@ -167,10 +170,10 @@ export default {
     }
     .container .card:nth-child(3) .circle,
     .container .card:nth-child(3) .bn{
-        background: #A3E4D7 ;
+        background: #056350 ;
     }
     .container .card:nth-child(4) .circle,
     .container .card:nth-child(4) .bn{
-        background: #28B463;
+        background: #d8a108;
     }
 </style>

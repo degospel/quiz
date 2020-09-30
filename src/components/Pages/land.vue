@@ -3,7 +3,7 @@
     <header class="sticky">
         <a href="#" class="logo"><img src="~@/assets/academia.png" style="width:10rem;"></a>
         <ul>
-            <li><p><router-link to="/" class="tex">Home</router-link></p></li>
+            <!-- <li><p><router-link to="/" class="tex">Home</router-link></p></li> -->
             <!-- <li><p><router-link to="/quis" class="tex">Web</router-link></p></li>
             <li><p><router-link to="/history" class="tex">History</router-link></p></li>
             <li><p><router-link to="/entertainment" class="tex">Entertainment</router-link></p></li>
@@ -19,7 +19,7 @@
                 <h1 class="mt-2">Be Prepared</h1>
                 <h3 class="mt-2">Don't Just Surf, Solve Too.</h3>
 
-                <button><router-link to="/select" class="fer">START HERE</router-link></button>
+                <button class="mt-5"><router-link to="/select" class="fer">START HERE</router-link></button>
             </div>
         </div>
     </section>
@@ -141,5 +141,13 @@ window.addEventListener("scroll", function(){
     .fer{
         text-decoration: none !important;
         color: #F6DDCC;
+    }
+    @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+            .banner{
+                height: 800px;
+            }
     }
 </style>
