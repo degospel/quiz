@@ -3,8 +3,6 @@
 
         <header>
             <router-link to="/" class="logo"><img src="~@/assets/academia.png" style="width:10rem;"></router-link>
-
-            
         </header>
 
         <div class="container fas">
@@ -64,6 +62,9 @@ export default {
 </script>
 
 <style scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
     header ul{
         position: relative;
         display: flex;
@@ -90,6 +91,7 @@ export default {
         min-height: 100vh;
         background: linear-gradient(45deg, #424949, #566573);
         background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
     }
     /* .fas{
         justify-content: center !important;
@@ -135,8 +137,9 @@ export default {
     }
     .container .card .circle h2{
         color: #fff;
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding: 30px 0;
+        font-family: 'Alata', sans-serif;
     }
     .container .card .content{
         position: absolute;
@@ -145,8 +148,8 @@ export default {
         text-align: center;
     }
     .container .card .content p{
-        color: #666;
-        font-family: 1em sans-serif;
+        color: #000;
+        font-family: 'Alata';
         font-size: 15px;
 
     }
@@ -159,6 +162,7 @@ export default {
         border-radius: 40px;
         text-decoration: none;
         margin-top: 20px;
+        font-family: 'Alata';
     }
     .container .card:nth-child(1) .circle,
     .container .card:nth-child(1) .bn{

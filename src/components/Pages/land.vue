@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="sticky">
-        <a href="#" class="logo"><img src="~@/assets/academia.png" style="width:10rem;"></a>
+        <router-link to="/" class="logo"><img src="~@/assets/academia.png" style="width:10rem;"></router-link>
         <ul>
             <!-- <li><p><router-link to="/" class="tex">Home</router-link></p></li> -->
             <!-- <li><p><router-link to="/quis" class="tex">Web</router-link></p></li>
@@ -56,7 +56,8 @@ window.addEventListener("scroll", function(){
 
     header.sticky{
         padding: 10px 100px;
-        background: #000;
+        background: #030440;
+        box-shadow: 5px 1px 4px 1px #999;
     }
 
     header .logo{
@@ -93,7 +94,7 @@ window.addEventListener("scroll", function(){
         position: relative;
         width: 100%;
         height: 100vh;
-        background:linear-gradient(#0000, #000), url("~@/assets/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg");
+        background:linear-gradient(#03044088, #03044088), url("~@/assets/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg");
         background-size: cover;
     }
     header.sticky li p{
@@ -135,8 +136,12 @@ window.addEventListener("scroll", function(){
         cursor: pointer;
         border-radius: 20px;
         margin: auto;
-        background-color: #1B2631;
+        background-color: #030440;
         text-decoration: none;
+    }
+    .landContent button:hover {
+        background: #000;
+        transition-duration: 1s;
     }
     .fer{
         text-decoration: none !important;
